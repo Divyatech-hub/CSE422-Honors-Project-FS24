@@ -27,9 +27,11 @@ This is my submisison for the honors project in CSE 422 - Computer Networks at M
   `` streamlit run honorsfinal1.py ``
 6. Open another terminal session side by side. Implement Port Forwarding using the following command:
   `` ssh -L [PORT # used by Streamlit]:[IP Address of Remote Server]:[PORT # used by Streamlit]: -N -f [netid]@scully.egr.msu.edu ``
+
   `` Example: ssh -L 8501:35.9.42.236:8501 -N -f varadhad@scully.egr.msu.edu ``
-7. Access the NIC GUI Dashboard by navigating to
+8. Access the NIC GUI Dashboard by navigating to
    ``http://localhost:[PORT # used by Streamlit]``
+   
    `` Example: http://localhost:8501``
 
 ## GUI Screenshots
