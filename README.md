@@ -17,19 +17,24 @@ This is my submisison for the honors project in CSE 422 - Computer Networks at M
 ## Setup and Execution Steps
 
 1. In a terminal session, SSH into the remote server.
+   
    ``ssh firstname@IP_ADDRESS``
    ``password: PID``
 2. Clone this github repository.
 3. Change the directory to where the Python file resides.
 4. Ensure dependencies are installed.
+   
    `` sudo pip3 install streamlit pandas netifaces matplotlib``
 5. Run the Python program to launch the Steamlit app. This takes a while to complete its execution, i.e. pinging all the respective target websites to get the data for the RTTs.
+   
   `` streamlit run honorsfinal1.py ``
 6. Open another terminal session side by side. Implement Port Forwarding using the following command:
+   
   `` ssh -L [PORT # used by Streamlit]:[IP Address of Remote Server]:[PORT # used by Streamlit]: -N -f [netid]@scully.egr.msu.edu ``
 
   `` Example: ssh -L 8501:35.9.42.236:8501 -N -f varadhad@scully.egr.msu.edu ``
-8. Access the NIC GUI Dashboard by navigating to
+7. Access the NIC GUI Dashboard by navigating to
+
    ``http://localhost:[PORT # used by Streamlit]``
    
    `` Example: http://localhost:8501``
