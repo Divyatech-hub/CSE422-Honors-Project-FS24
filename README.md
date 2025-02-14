@@ -7,11 +7,11 @@
 This is my submisison for the honors project in CSE 422 - Computer Networks at Michigan State University. This proejct aims to optimize network performance by dynamically selecting the best Network Interface Card (NIC) based on real-time latency measurements. The system continuously monitors multiple NICs, pings selected target websites, and determines the optimal NIC for network traffic based on the lowest Round-Trip Time (RTT). The implementation includes a real- time dashboard using Streamlit to visualize NIC performance.
 
 ## Tech Stack
-![Python](https://github.com/user-attachments/assets/1b364753-bf0e-4c37-99f6-cf23787d57be)
 ![Matplotlib](https://github.com/user-attachments/assets/5ba8119f-34a5-4f06-b4da-a2312e68310b)
 ![Pandas](https://github.com/user-attachments/assets/f39a5bb8-5934-409e-a4a3-3acb02b68fbb)
 ![Streamlit](https://github.com/user-attachments/assets/4b45c326-0882-400e-a210-7fa2631baa3c)
-|[Netifaces](https://github.com/user-attachments/assets/3621253f-79b4-4ff1-a733-aca57e278093)
+![Netifaces](https://github.com/user-attachments/assets/3621253f-79b4-4ff1-a733-aca57e278093)
+![Python](https://github.com/user-attachments/assets/1b364753-bf0e-4c37-99f6-cf23787d57be)
 
 
 ## Setup and Execution Steps
@@ -45,9 +45,9 @@ This is my submisison for the honors project in CSE 422 - Computer Networks at M
 
 
 ## References
-• Python Netifaces Documentation: https://pypi.org/project/netifaces/
-• Streamlit Documentation: https://docs.streamlit.io/
-• Linux Networking Commands: https://linux.die.net/man/
+1. Python Netifaces Documentation: https://pypi.org/project/netifaces/
+2. Streamlit Documentation: https://docs.streamlit.io/
+3. Linux Networking Commands: https://linux.die.net/man/
 
 
 
